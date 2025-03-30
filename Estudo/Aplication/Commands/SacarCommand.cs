@@ -1,8 +1,6 @@
 ﻿using Estudo.Domain.Modal;
 using Estudo.Domain.UI.Commands;
 
-namespace Estudo.Aplication.Commands;
-
 public class SacarCommand : ICommand
 {
     public ContaBancaria Conta { get; set; }

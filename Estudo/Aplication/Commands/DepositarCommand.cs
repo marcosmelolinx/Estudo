@@ -5,12 +5,12 @@ using MediatR;
 
 public class DepositarCommand : ICommand
 {
-    private readonly ContaBancaria _account;
-    private readonly float _amount;
+    public ContaBancaria Conta { get; set; }
+    public float Amount { get; set; }
 
     public DepositarCommand(ContaBancaria account, float amount)
     {
-        _account = account;
-        _amount = amount;
+        Conta = account;
+        Amount = amount;
     }
 }
