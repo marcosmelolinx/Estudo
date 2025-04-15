@@ -1,6 +1,4 @@
-﻿using Estudo.Aplication.Commands;
-
-namespace Estudo.Aplication.Handlers;
+﻿namespace Estudo.Aplication.Handlers;
 
 
 public class SacarCommandHandler : ICommandHandler<SacarCommand>
